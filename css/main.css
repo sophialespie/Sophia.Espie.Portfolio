@@ -4,10 +4,11 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #9ef0d9;
+    color: #721e4a;
     text-align: center;
     padding: 20px;
+    border: 10px solid #be5353;
 }
 
 .title {
@@ -36,8 +37,8 @@ header {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #9ef0d9;
+    color: #721e4a;
     padding: 20px;
     text-align: center;
 }
@@ -54,29 +55,34 @@ footer {
     }
 
     nav {
-        background-color: #333; /* Background color for the navigation bar */
-        width: 200px; /* Adjust the width as needed */
+        background-color: #9ef0d9; /* Background color for the navigation bar */
+        width: 1px; /* Adjust the width as needed */
         position: fixed;
         top: 0;
-        left: 0; /* Position on the left side of the screen */
+        left: ; /* Position on the left side of the screen */
+       
        
     }
 
     ul {
         list-style: none;
         padding: 0;
+        border: #000 15px;
     }
 
     li {
-        text-align: left; /* Align text to the left side */
-        padding: 15px 0;
+        text-align: right; /* Align text to the left side */
+        padding: 15px;
+        border: #000 15px;
     }
 
     a {
         text-decoration: none;
-        color: #fff; /* Text color for navigation links */
+        color: #721e4a; /* Text color for navigation links */
         display: block;
         padding-left: 10px; /* Add some padding on the left side */
+        font-weight: 200;
+        border: #000 15px;
     }
 
     a:hover {
