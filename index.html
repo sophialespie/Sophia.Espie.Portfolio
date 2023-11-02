@@ -22,10 +22,108 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
+</html>
+ <!-- navigation -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left Navbar</title>
+</head>
 <body>
-  <!-- Place your site's HTML here -->
-  <p>This text will display on your site! Jan 19</p>
-  <script src="js/main.js"></script>
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+           
+        </ul>
+    </nav>
 </body>
+</html>
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Sophia Espie</h1>
+            <img src="profile.jpg" alt="Your Photo">
+        </div>
+    </header>
+    
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="carousel">
+            <!-- Add your image carousel here -->
+            <!-- Each image should link to a project page -->
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <style>
+                    .carousel-container {
+                        width: 400px;
+                        overflow: hidden;
+                    }
+            
+                    .carousel {
+                        display: flex;
+                        transition: transform 0.5s;
+                    }
+            
+                    .carousel img {
+                        width: 400px;
+                        height: 300px;
+                    }
+                </style>
+                <title>Photo Carousel</title>
+            </head>
+            <body>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <img src="image1.jpg" alt="Image 1">
+                        <img src="image2.jpg" alt="Image 2">
+                        <img src="image3.jpg" alt="Image 3">
+                        <!-- Add more images as needed -->
+                    </div>
+                </div>
+            
+                <script>
+                    const carousel = document.querySelector('.carousel');
+                    const images = document.querySelectorAll('.carousel img');
+                    let currentIndex = 0;
+                    const interval = 3000; // Time between image transitions in milliseconds
+            
+                    function updateCarousel() {
+                        carousel.style.transform = `translateX(-${currentIndex * 400}px)`;
+                    }
+            
+                    function nextImage() {
+                        currentIndex = (currentIndex + 1) % images.length;
+                        updateCarousel();
+                    }
+            
+                    setInterval(nextImage, interval);
+                </script>
+            </body>
+            </html>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Contact information goes here.</p>
+    </section>
+    
+    <footer>
+        <div class="social-links">
+            <!-- Add your social media links here -->
+        </div>
+    </footer>
+</body>
 </html>
