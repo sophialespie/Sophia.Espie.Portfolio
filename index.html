@@ -33,8 +33,7 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#">About</a></li>
-           
+            <li><a href="about.html">About</a></li>
         </ul>
     </nav>
 </body>
@@ -51,15 +50,13 @@
     <header>
         <div class="title">
             <h1>Sophia Espie</h1>
-            <img src="me.firstpage" alt="Your Photo">
+            <img src="img/me.firstpage.png" alt="Your Photo">
         </div>
     </header>
-    profile.jpg
     <section class="projects">
         <h2>Projects</h2>
         <div class="carousel">
-            <!-- Add your image carousel here -->
-            <!-- Each image should link to a project page -->
+            
             <!DOCTYPE html>
             <html lang="en">
             <head>
@@ -67,8 +64,7 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <style>
                     .carousel-container {
-                        width: 400px;
-                        overflow: hidden;
+                       
                     }
             
                     .carousel {
@@ -84,20 +80,22 @@
                 <title>Photo Carousel</title>
             </head>
             <body>
-                <div class="carousel-container">
+                 <div class="carousel-container">
                     <div class="carousel">
-                        <img src="image1.jpg" alt="Image 1">
-                        <img src="image2.jpg" alt="Image 2">
-                        <img src="image3.jpg" alt="Image 3">
-                        <!-- Add more images as needed -->
+                        <a href="page2.html"><img src="img/this nomen.jpg" alt="Image 1"></a>
+                        <a href="page3.html"><img src="img/post card.jpg" alt="Image 2"></a>
+                        <a href="page4.html"><img src="img/response.art.mock.up.jpg" alt="Image 3"></a>
+                        <a href="page5.html"><img src="img/repeat.mockuo.jpg" alt="Image 4"></a>
                     </div>
                 </div>
-            
+        
+               
+
                 <script>
                     const carousel = document.querySelector('.carousel');
                     const images = document.querySelectorAll('.carousel img');
                     let currentIndex = 0;
-                    const interval = 3000; // Time between image transitions in milliseconds
+                    const interval = 3000;
             
                     function updateCarousel() {
                         carousel.style.transform = `translateX(-${currentIndex * 400}px)`;
@@ -115,15 +113,18 @@
         </div>
     </section>
     
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Contact information goes here.</p>
-    </section>
+    
     
     <footer>
         <div class="social-links">
-            <!-- Add your social media links here -->
+            <a href="https://www.linkedin.com/in/sophia-espie-8b140b285/" target="_blank">linkedin</a>
+        </div>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:youremail@example.com">sophialespie@gmail.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">4343052419</a></p>
         </div>
     </footer>
 </body>
 </html>
+
+
