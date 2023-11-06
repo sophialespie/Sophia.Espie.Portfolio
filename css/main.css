@@ -33,7 +33,7 @@ header {
 }
 
 .carousel {
-    /* Add styles for your image carousel here */
+    
 }
 
 footer {
@@ -44,7 +44,7 @@ footer {
 }
 
 .social-links {
-    /* Add styles for your social links here */
+    
 }
 
 
@@ -55,11 +55,11 @@ footer {
     }
 
     nav {
-        background-color:#c69ef0; /* Background color for the navigation bar */
-        width: 1px; /* Adjust the width as needed */
+        background-color:#c69ef0; 
+        width: 1px; 
         position: fixed;
         top: 0;
-        left: ; /* Position on the left side of the screen */
+        left: ; 
        
        
     }
@@ -71,21 +71,21 @@ footer {
     }
 
     li {
-        text-align: right; /* Align text to the left side */
+        text-align: right; 
         padding: 15px;
         border: #000 15px;
     }
 
     a {
         text-decoration: none;
-        color: #0d341d; /* Text color for navigation links */
+        color: #0d341d; 
         display: block;
-        padding-left: 10px; /* Add some padding on the left side */
+        padding-left: 10px; 
         font-weight: 200;
         border: #000 15px;
     }
 
     a:hover {
-        background-color: #c69ef0; /* Background color on hover */
+        background-color: #c69ef0; 
     }
 </style>
