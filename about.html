@@ -100,3 +100,53 @@
     </div>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+           
+        }
+
+        .footer {
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .moving-photo {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            bottom: 20px;
+            animation: photoMove 4s linear infinite;
+        }
+
+        @keyframes photoMove {
+            0% {
+                left: 0;
+            }
+            50% {
+                left: 50%;
+            }
+            100% {
+                left: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <div class="moving-photo">
+            <img src="img/IMG_8560.jpg" alt="Moving Photo">
+        </div>
+    </div>
+</body>
+</html>
